@@ -6,7 +6,7 @@ import math
 %matplotlib inline
 
 # load the dataset
-x_train, y_train = load_data()
+x_train, y_train = load_data("data/restaurant_data.txt")
 
 print ('The shape of x_train is:', x_train.shape)
 print ('The shape of y_train is: ', y_train.shape)
